@@ -5,7 +5,7 @@ class DBConnection
     function ConnectToMYSQL()
     {
         
-      $con = mysqli_connect("localhost","root","S@NDS1@B","mit_hr_db");
+      $con = mysqli_connect("localhost","sandsl23_mitemployee_user","s@nds1@b","sandsl23_mitemployee_db");
         
       if (mysqli_connect_errno())
         {
